@@ -1,6 +1,6 @@
 {
   "name": "electrolyte-decorator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Handy reflection and annotation utility for electrolyte components.",
   "main": "dist/rollup-starter-project.js",
   "jsnext:main": "dist/rollup-starter-project.mjs",
