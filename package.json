@@ -1,0 +1,36 @@
+{
+  "name": "electrolyte-decorator",
+  "version": "0.1.0",
+  "description": "Handy reflection and annotation utility for electrolyte components.",
+  "main": "dist/rollup-starter-project.js",
+  "jsnext:main": "dist/rollup-starter-project.mjs",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylestev/electrolyte-decorator.git"
+  },
+  "keywords": [
+    "di",
+    "electrolyte",
+    "reflection"
+  ],
+  "author": "Kyle Stevenson <kyle@kylestevenson.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kylestev/electrolyte-decorator/issues"
+  },
+  "homepage": "https://github.com/kylestev/electrolyte-decorator#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "babelrc-rollup": "^1.1.0",
+    "rollup": "^0.30.0",
+    "rollup-plugin-babel": "^2.5.1"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
